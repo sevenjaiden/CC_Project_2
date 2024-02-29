@@ -1,0 +1,351 @@
+.main {
+    background-image: url("IMG_0065.JPG");
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    margin:0;
+}
+
+/* 
+@media screen and (max-width: 972px) {
+    .title-2 {
+        display: grid;
+        grid-template-rows: repeat(11, 1fr);
+        grid-template-columns: repeat(21, 1fr);
+        grid-area: 5 / 2 / 6 / 3;
+    }
+}
+ */
+
+
+.container {
+    display: grid;
+    max-width: 100%;
+    height: 100vh;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+
+    /* apply styles to text on start page */
+.title {
+    /* 
+    border-style: solid;
+    border-width: 1px;
+    border-color: limegreen; 
+    */
+    color: black;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+.title-1{
+    grid-area: 3 / 2 / 4 / 3;
+    display: flex ;
+    justify-content: center;
+    align-items: center; 
+    letter-spacing:0.5em;
+    text-align: center;
+   }
+
+
+    /* icon */
+.material-symbols-outlined {
+    color: black;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 250,
+    'GRAD' 0,
+    'opsz' 24;
+    grid-area: 3 / 3 / 4 / 4;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    transition: color .7s;
+    /* transition: transform .7s; */
+}
+
+
+    /* change colour of icon on start page */
+.material-symbols-outlined:hover {
+    color:rgb(205, 0, 0); 
+    /* transform: scale(1.5) */
+}
+
+
+.title-2 {
+    grid-area: 3 / 4 / 4 / 5;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    letter-spacing:0.5em;
+    text-align: center;
+    text-indent: 0.45em;
+}
+
+
+    /* letter-1/2 makes the 'S' and 'C' bigger*/
+#letter-1 {
+    font-size: 20px;
+    text-align: right; 
+    text-indent: .5em;
+    font-size: 30px;
+}
+
+
+#letter-2 {
+    font-size: 20px;
+    text-align: left; 
+    text-indent: 0;
+    font-size: 30px;
+}
+
+
+    /* hightlight is red and text is white */
+::selection {
+    background: #710000a1;
+    color: whitesmoke;
+}
+
+
+#page-2 {
+    background-image: url("IMG_0062.JPG");
+    background-size: cover;
+    background-image: no-repeat;
+    margin: 0;
+}
+
+
+.page-2-text {
+    color: black;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+.page-2-text-1 {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: limegreen;  */
+    grid-area: 4 / 10 / 4 / 13;
+    text-align: center;
+    align-self: center;
+}
+
+
+.page-2-text-2 {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: limegreen;  */
+    grid-area: 10 / 8 / 11 / 15;
+    text-align: center;
+    align-self: center;
+    color: #710000;
+}
+
+
+#link-1{
+    font-size: 30px;
+}
+
+/* #link-1:hover{
+    font-size: 30px;
+    background-color: #710000a1;
+    color: whitesmoke
+} */
+
+#link-2 {
+    grid-area: 6 / 11 / 7 / 12;
+    font-size: 30px;
+}
+
+#link-3 {
+    grid-area: 9 / 16 / 11 / 17;
+    font-size: 30px;
+}
+
+#link-4 {
+    grid-area: 9 / 11 / 10 / 12;
+    font-size: 30px;
+}
+
+#link-5 {
+    grid-area: 8 / 19 / 9 / 21;
+    font-size: 30px;
+}
+
+#link-6 {
+    grid-area: 11 / 11 / 11 / 12;
+    font-size: 30px;
+}
+
+#page-3 {
+    background-image: url("IMG_0061.JPG");
+    background-size: cover;
+    background-image: no-repeat;
+    margin: 0;
+}
+
+
+.page-3-text {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: limegreen;  */
+    grid-area: 6 / 8 / 7 / 15;
+    text-align: center;
+    align-self: center;
+    color: #820000;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+#page-4 {
+    /* background-image: url("../images/IMG_0064.JPG"); */
+    background-color: #710000;
+    background-size: cover;
+    background-image: no-repeat;
+    margin: 0;
+}
+
+#img_4 {
+    width: 100vw;
+    grid-area: 6 / 1 / 7 / 22;
+}
+
+#link-4:hover {
+    color: whitesmoke; 
+    /* transform: scale(1.5) */
+}
+
+
+#page-4-text {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: limegreen;  */
+    grid-area: 4 / 11 / 5 / 12;
+    text-align: center;
+    align-self: center;
+    color: whitesmoke;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+#page-5 {
+    background-image: url("IMG_0060.JPG");
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    margin:0;
+}
+
+
+.page-5-text {
+    color: rgb(177, 0, 0);
+    font-family: "Cinzel Decorative", serif;
+    font-size: 25px;
+    font-style: normal;
+    background-color: rgba(245, 245, 245, 0.641);
+}
+
+.page-5-text-1 {
+    grid-area: 4 / 2 / 5 / 3;
+    font-size: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+
+.page-5-text-2 {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: limegreen;   */
+    grid-area: 9 / 2 / 10 / 6;
+    font-size: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+
+#page-6 {
+    background-image: url("IMG_0076.JPG");
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    height: 100vh;
+    margin:0;
+
+    transition: .5s;
+    animation-name: animate;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes animate {
+    0% {
+        background-image: url("IMG_0076.JPG");
+    }
+    50% {
+        background-image: url("IMG_0075.JPG");
+    }
+    75% {
+        background-image: url("IMG_0074.JPG");
+    }
+    100% {
+        background-image: url("IMG_0072.JPG");
+    }
+}
+
+
+.page-6-text {
+    color: black;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 25px;
+    font-style: normal;
+    background-color: rgba(245, 245, 245, 0.641);
+}
+
+
+.page-6-text-1 {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: limegreen; */
+    grid-area: 6 / 6 / 7 / 17;
+    text-align: center;
+    align-self: center;
+}
+
+
+.page-6-text-2 {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: limegreen; */
+    grid-area: 9 / 2 / 10 / 21;
+    text-align: center;
+    align-self: center;
+    color: #000000;
+    letter-spacing: 50px;
+    text-indent: 1em;
+    font-weight: 700;
+}
+
+
+.type {
+    animation: flashing 1s step-start infinite;
+}
+
+@keyframes flashing {
+    50%{
+        opacity: 0;
+    }
+}
